@@ -20,7 +20,6 @@ This project is not just a Flask app — it shows that I can:
 ✅ Follow CI/CD best practices used in real companies
 
 🛠️ Tech Stack
-
 Backend: Python, Flask
 
 Testing: Pytest
@@ -165,7 +164,7 @@ Add monitoring (Prometheus / Grafana)
 👨‍💻 Author
 
 Abdul Ahad
-DevOps Enthusiast | Python | Docker | Jenkins | AWS
+DevOps Enthusiast  | Docker | Jenkins | AWS
 
 📌 GitHub: https://github.com/Ahad9049
 
