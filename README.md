@@ -25,6 +25,8 @@ Backend: Python, Flask
 Testing: Pytest
 
 CI/CD: Jenkins (Declarative Pipeline)
+<img width="1920" height="1080" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/c6a88cbb-418f-4cb6-b181-74b5df551cd9" />
+
 
 Containerization: Docker
 
@@ -94,6 +96,8 @@ pytest
 This ensures only tested and verified code gets deployed.
 
 🐳 Docker
+<img width="1920" height="1047" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/eeb5a2c9-9717-4eb1-90d0-26e9564876d1" />
+
 Build Image Locally
 docker build -t abdulahad9049/python-flask-app:latest .
 
@@ -101,6 +105,7 @@ Run Container
 docker run -d -p 5000:5000 abdulahad9049/python-flask-app:latest
 
 ☁️ AWS EC2 Deployment
+<img width="1920" height="1034" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/a1043d20-f3af-4c16-80ee-d2892cf60665" />
 
 EC2 runs Ubuntu
 
