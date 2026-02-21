@@ -46,6 +46,7 @@ python-flask-app/
 └── README.md
 
 ⚙️ CI/CD Pipeline Overview
+<img width="1920" height="1080" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/5a574a4a-5c52-465c-b00e-9e387ee45a96" />
 
 Every code push automatically triggers the pipeline below:
 
