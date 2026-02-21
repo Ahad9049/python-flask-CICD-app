@@ -3,8 +3,6 @@
 A production-ready Python Flask application with a fully automated CI/CD pipeline using Jenkins, Docker, and AWS EC2.
 This project demonstrates real-world DevOps practices including testing, containerization, image publishing, and zero-downtime deployment.
 
-📌 Why This Project Matters (Recruiter View)
-
 This project is not just a Flask app — it shows that I can:
 
 ✅ Build and test Python applications
@@ -20,8 +18,8 @@ This project is not just a Flask app — it shows that I can:
 ✅ Follow CI/CD best practices used in real companies
 
 🛠️ Tech Stack
-Backend: Python, Flask
 
+Backend: Python, Flask
 Testing: Pytest
 
 CI/CD: Jenkins (Declarative Pipeline)
