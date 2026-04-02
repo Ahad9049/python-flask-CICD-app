@@ -46,7 +46,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build --progress=plain -t abdulahad9049/python-flask-app:latest .'
+                sh 'docker build --progress=plain -t $(IMAGE_NAME):$(env.BUILD_NUMBER)'
             }
         }
 
@@ -81,15 +81,4 @@ pipeline {
         }
     }
 
-    post {
-        success {
-            echo '✅ CI/CD Pipeline Completed Successfully'
-        }
-        failure {
-            echo '❌ Pipeline Failed'
-        }
-        always {
-            sh 'docker logout || true'
-        }
-    }
-}
+ 
