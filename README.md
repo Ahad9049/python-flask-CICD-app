@@ -1,5 +1,5 @@
-# 🚀 Production-Ready Flask App with Automated CI/CD  
-### Jenkins • Docker • AWS EC2
+# 🚀 Just shipped a complete DevOps pipeline: Automated CI/CD + Kubernetes orchestration on AWS
+### Jenkins • Docker • AWS EC2 • k8s
 
 A fully automated, production-style CI/CD pipeline built around a Python Flask application.  
 
@@ -16,7 +16,8 @@ This is not just a Flask app — it proves hands-on experience with:
 - 🐳 Containerized application delivery  
 - 🔐 Secure credential management  
 - ☁️ Cloud-based production deployment  
-- 🚀 Automated remote releases  
+- 🚀 Automated remote releases
+- container orcastraion k8s
 
 This reflects how modern DevOps workflows operate in real companies.
 
@@ -29,7 +30,7 @@ This reflects how modern DevOps workflows operate in real companies.
 | Backend | Python, Flask |
 | Testing | Pytest |
 | CI/CD | Jenkins (Declarative Pipeline) |
-| Containerization | Docker |
+| Containerization | Docker | k8s
 | Registry | Docker Hub |
 | Cloud | AWS EC2 (Ubuntu) |
 | Version Control | Git & GitHub |
@@ -39,15 +40,15 @@ This reflects how modern DevOps workflows operate in real companies.
 ## 📂 Project Structure
 
 ```
-python-flask-app/
-│
-├── app.py
-├── requirements.txt
-├── Dockerfile
-├── Jenkinsfile
-├── tests/
-│   └── test_app.py
-└── README.md
+python-flask-CICD-app/
+├── Jenkinsfile              # Full 7-stage automation
+├── Dockerfile               # Multi-stage optimized build
+├── deployment.yaml          # K8s deployment (3 replicas)
+├── kind-config.yaml         # 3-node KIND cluster
+├── namespace.yaml           # prod/dev isolation
+├── app.py                   # Flask REST API
+├── test_app.py              # Pytest coverage
+└── requirements.txt         # Python dependencies
 ```
 
 ---
