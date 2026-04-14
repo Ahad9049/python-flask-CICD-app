@@ -3,18 +3,21 @@ kind: Deployment
 metadata:
   name: flask-deployment
   namespace: flask-namespace
-  spec:
+
+spec:
   replicas: 3
   selector:
     matchLabels:
       app: flask
+
   template:
     metadata:
       labels:
         app: flask
-        spec:
-          containers:
-          - name: flask
-            image: abdulahad9049/python-flask-kind:latest
-            ports:
+
+    spec:
+      containers:
+        - name: flask
+          image: abdulahad9049/python-flask-kind:latest
+          ports:
             - containerPort: 5000
